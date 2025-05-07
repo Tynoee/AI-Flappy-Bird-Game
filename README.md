@@ -9,7 +9,7 @@ An AI agent that learns to play Flappy Bird using the **NEAT (NeuroEvolution of 
 - 💾 Configurable NEAT parameters
 - 🔄 Replayable and reproducible simulations
 
----
+<img src="fp.gif" width="500" height="500">
 
 ## 🧰 Technologies Used
 
@@ -17,6 +17,6 @@ An AI agent that learns to play Flappy Bird using the **NEAT (NeuroEvolution of 
 - **Pygame** – for rendering and game mechanics
 - **NEAT-Python** – for neuroevolution and fitness evaluation
 
----
+
 
 
