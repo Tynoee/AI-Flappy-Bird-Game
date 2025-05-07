@@ -42,7 +42,6 @@ Fitness increases with time survived, and decreases for collisions or bad jumps.
 
 ```bash
 git clone https://github.com/Tynoee/AI-Flappy-Bird-Game.git
-cd flappy-bird-ai
 
 
 
