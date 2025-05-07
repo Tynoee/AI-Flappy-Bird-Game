@@ -36,5 +36,13 @@ The **single output** decides:
 
 Fitness increases with time survived, and decreases for collisions or bad jumps.
 
+## 🛠️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com//flappy-bird-ai.git
+cd flappy-bird-ai
+
 
 
