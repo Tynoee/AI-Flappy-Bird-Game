@@ -9,7 +9,7 @@ An AI agent that learns to play Flappy Bird using the **NEAT (NeuroEvolution of 
 - 💾 Configurable NEAT parameters
 - 🔄 Replayable and reproducible simulations
 
-<img src="fp.gif" width="500" height="500">
+<img src="fp.gif" width="450" height="450">
 
 ## 🧰 Technologies Used
 
@@ -17,6 +17,24 @@ An AI agent that learns to play Flappy Bird using the **NEAT (NeuroEvolution of 
 - **Pygame** – for rendering and game mechanics
 - **NEAT-Python** – for neuroevolution and fitness evaluation
 
+## How NEAT Works in This Project
+
+- Each bird is controlled by a neural network.
+- Networks are evolved using NEAT over multiple generations.
+- Fitness is based on survival time and number of pipes passed.
+- The best-performing networks survive and mutate to improve over time.
+
+### Each bird is controlled by a neural network that receives **3 inputs**:
+
+- 🐤 Bird’s vertical position
+- 📏 Distance to the next pipe (top)
+- 📏 Distance to the next pipe (bottom)
+
+The **single output** decides:  
+➡️ `Jump` if the value > 0.5  
+➡️ `Do nothing` otherwise
+
+Fitness increases with time survived, and decreases for collisions or bad jumps.
 
 
 
